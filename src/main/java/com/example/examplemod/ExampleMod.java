@@ -29,7 +29,8 @@ public class ExampleMod
         logger = event.getModLog();
 
         toolMaterial = EnumHelper.addToolMaterial("excalibur", 333, 434343,2324343,34434,3);
-
+        sword = new CustomSword(toolMaterial);
+        
     }
 
     @EventHandler
